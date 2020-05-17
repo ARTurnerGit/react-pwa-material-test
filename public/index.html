@@ -24,25 +24,6 @@
       work correctly both with client-side routing and a non-root public URL.
       Learn how to configure a non-root public URL by running `npm run build`.
     -->
-    <script>
-      // Initialize and add the map
-      function initMap() {
-        // The location of Uluru
-        var zeroZero = { lat: 0, lng: 0 };
-        // The map, centered at zeroZero
-        var map = new google.maps.Map(document.getElementById("map"), {
-          zoom: 1,
-          center: zeroZero,
-        });
-        // The marker, positioned at zeroZero
-        var marker = new google.maps.Marker({ position: zeroZero, map: map });
-      }
-    </script>
-    <script
-      async
-      defer
-      src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBeyVA-bSzq5a-z2Cl_cM_35K068amyFtw&callback=initMap"
-    ></script>
     <title>React App</title>
   </head>
   <body>
